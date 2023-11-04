@@ -1,0 +1,46 @@
+2023-05-21 09:13:45,248 - ShadowDet - INFO - Experiment arguments:
+ ============begin==================
+acc_step = 1
+action = train
+ckpt = None
+config = None
+eval_batch = 1
+eval_data = SBU_test+UCF_test
+eval_size = 512
+i_print = 10
+logdir = logs
+loglevel = info
+loss = bbce
+lr = 0.0005
+lr_gamma = 0.7
+lr_step = 1
+model = BANet.efficientnet-b3
+nworker = 4
+prob_th = 0.5
+save_ckpt = 1
+seed = 4
+total_ep = 20
+train_batch = 4
+train_data = SBU_train
+train_size = 512
+wd = 0.0001
+=============end================
+2023-05-21 09:13:49,937 - ShadowDet - INFO - model BANet.efficientnet-b3 is created!
+2023-05-21 09:13:49,943 - ShadowDet - INFO - Dataloaders are prepared!
+2023-05-21 09:14:17,068 - ShadowDet - INFO - Scores:
+===============================================
+	SBU_test.pos_err:100.0
+	SBU_test.neg_err:0.0
+	SBU_test.ber:50.0
+	SBU_test.acc:0.8141027688980103
+===============================================
+2023-05-21 09:14:21,998 - ShadowDet - INFO - Scores:
+===============================================
+	UCF_test.pos_err:100.0
+	UCF_test.neg_err:0.0
+	UCF_test.ber:50.0
+	UCF_test.acc:0.8303857445716858
+===============================================
+2023-05-21 09:14:25,377 - ShadowDet - INFO - [batch 10/1021, epoch 1/20]: loss_mask:0.12509822845458984 loss_noshad:0.07160969078540802 loss_shadimg:0.08985886722803116 loss_filter:1.0134570402442478e-05 loss_total:0.28657692670822144 
+2023-05-21 09:14:28,150 - ShadowDet - INFO - [batch 20/1021, epoch 1/20]: loss_mask:0.113631471991539 loss_noshad:0.050021421164274216 loss_shadimg:0.06579504907131195 loss_filter:4.761375294037862e-06 loss_total:0.2294527143239975 
+2023-05-21 09:14:30,919 - ShadowDet - INFO - [batch 30/1021, epoch 1/20]: loss_mask:0.0707603171467781 loss_noshad:0.03882474824786186 loss_shadimg:0.05074380710721016 loss_filter:3.494694055916625e-06 loss_total:0.16033238172531128 
