@@ -25,7 +25,7 @@ Pleasure configure the environment according to the given version:
 
 We also provide ".yaml" files for conda environment configuration, you can  use `conda env create -f env.yaml` to create a required environment.
 
-ResNext101 has been adopted, please put `resnext_101_32x4d.pth` in the `SDDNet/resnext` directory. You can download the model from [[Link](https://pan.baidu.com/s/12aR793_GeohinDlFbqGlzQ)], code: mvpl.
+ResNext101 has been adopted, please put `resnext_101_32x4d.pth` in the `SDDNet/resnext` directory. You can download the model from [[Link](https://pan.baidu.com/s/12aR793_GeohinDlFbqGlzQ)], code: ```mvpl```.
 
 
 ## Preparation
@@ -69,7 +69,7 @@ python train.py
 ```
 
 **Testing command** :
-The trained model for SDDNet can be download here: [[Link](https://pan.baidu.com/s/1OyFuHeWtfiueOUan9GxQrg)], code: mvpl.
+The trained model for SDDNet can be download here: [[Baidu Netdisk Link](https://pan.baidu.com/s/1OyFuHeWtfiueOUan9GxQrg)], code: ```mvpl``` or [[Google Drive Link](https://drive.google.com/drive/folders/1Qz7zPT1A4u1OO6t8v6AiySBMBK9rBZLb?usp=sharing)].
 ```python
 python test.py
 python crf_refine.py
@@ -79,7 +79,7 @@ python crf_refine.py
 We implement the widely-used metric, balanced error rate (BER). -->
 ## Results
 
-1. **Qualitative results**: we provide the saliency maps, you can download them from [[Link](https://pan.baidu.com/s/1-wvG-LVGIu4HEiP1izs_ZQ)], code: mvpl.
+1. **Qualitative results**: we provide the saliency maps, you can download them from [[Baidu Netdisk Link](https://pan.baidu.com/s/1-wvG-LVGIu4HEiP1izs_ZQ)], code: ```mvpl``` or [[Google Drive Link](https://drive.google.com/drive/folders/1Qz7zPT1A4u1OO6t8v6AiySBMBK9rBZLb?usp=sharing)].
 2. **Quantitative results**: 
 
 ![image](figures/quantitative_results.png)
